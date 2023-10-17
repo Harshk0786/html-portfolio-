@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="es.css">
+    <style>
+      h1{
+        padding:33px
+      }
+        form{
+            padding: 100px;
+           
+            
+        }
+      select{
+        text-transform: capitalize;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      lable{
+        color: white;
+      }
+      div{
+        border: 5px solid white;
+        height: 500px;
+        width: 450px;
+        border-radius: 8px;
+      }
+    </style>
+
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <center>
+    <form action="">
+        <div>
+        <h1 style="text-align:center;color: rgb(255, 255, 255);">♀ Registration Form ♀</h1>
+        <p>
+            <lable>Username : <input type="text" name="Username" required></lable></p>
+            <lable>Password : <input type="password" name="password" id="password" required></lable></p>
+            <lable for="Male">Male : <input type="radio" name="gender" id="Male"required></lable>
+            <lable for="Female">Female : <input type="radio" name="gender" id="Female"required></lable></p>
+            <lable>Phone no. : <input type="number" name="Phone" required></lable></p>
+            <lable>Gmail : <input type="text" name="Gmail" id="Gmail"></lable></p>
+            <lable>Courses : </lable>
+            <select name="course">
+                <option value="">--select the course--</option>
+                <option value=""B-tech>B-tech</option>
+                <option value=""M-tech>M-tech</option>
+                <option value=""BSE>BSE</option>
+            </select></p>
+            <button type="submit">Submit</button>
+<br>
+        </p></div>
+    </form>
+</center>
+</body>
+<footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">&copy; 2022 | InverseMovies</a>
+</footer>
+</html>
